@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cnk1bwebafmfi"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7fcwl"]
+load_path = "res://.godot/imported/tileset_underground_biome_mixed.png-04fa7c50a8bf3546cca5cdefc5c47636.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fngyb"]
+size = Vector2(48, 13)
+
+[node name="Platform" type="AnimatableBody2D" unique_id=1154929709]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=795694559]
+position = Vector2(0, 1.5)
+scale = Vector2(1, 1.3)
+texture = SubResource("CompressedTexture2D_7fcwl")
+region_enabled = true
+region_rect = Rect2(0, 49, 49, 10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=608736499]
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_fngyb")
+one_way_collision = true

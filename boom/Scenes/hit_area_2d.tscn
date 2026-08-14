@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://d3qqi5n2502x6"]
+
+[ext_resource type="PackedScene" uid="uid://bm0r6erdertn7" path="res://Scenes/kill_zone.tscn" id="1_qtjno"]
+
+[node name="HitArea2D" type="Area2D" unique_id=802198783]
+
+[node name="KillZone" parent="." unique_id=449739317 instance=ExtResource("1_qtjno")]

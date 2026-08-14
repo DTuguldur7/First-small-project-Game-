@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bgrfl3c7k6yn2"]
+
+[ext_resource type="Texture2D" uid="uid://budna1knb03ew" path="res://Assets/Sprites/Spikev2.png" id="1_1hotg"]
+
+[node name="Spike" type="Sprite2D" unique_id=982987237]
+position = Vector2(0, -8)
+texture = ExtResource("1_1hotg")

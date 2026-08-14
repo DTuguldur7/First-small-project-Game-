@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://jpgvptg4dy0y"]
+
+[ext_resource type="Texture2D" uid="uid://dcbbahho0ynac" path="res://Assets/Sprites/Bulletv1.png" id="1_vlxeq"]
+
+[node name="RigidBody2D" type="RigidBody2D" unique_id=1806365888]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1436223977]
+position = Vector2(0, -8)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_vlxeq")
